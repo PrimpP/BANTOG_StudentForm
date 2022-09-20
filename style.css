@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+#body2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('sfBodyBGImage.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('sfheaderBgImage.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.wrapper2 img{
+    width: 600px;
+    height: 600px;
+    opacity: .75;
+}
+
+.form{
+    width: 45%;
+    margin: 20px auto;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="number"],
+input[type="tel"]{
+    border: 0;
+    border-bottom: 2px dotted black;
+    margin-bottom: 20px;
+}
+
+input[type="submit"], input[type="reset"]{
+    margin-top: 1em;
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    font-family: Tahoma, sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+    cursor: pointer;      
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:black;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 6px blue;
+    display: inline-block;
+    margin-left: 2.3in;
+}
+
+h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+}
+
+fieldset{
+    opacity: 0.95;
+    background: #98c1d9;
+    box-shadow: 0px 0px 5px #e0fbfc;
+    border: 8px double #3d5a80;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+fieldset h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #000;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px blue;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+h5{
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#birthdDate{
+    margin-left: 4em;
+}
+
+#address{
+    width: 4.8in;
+}
+
+#guardiansName{
+    width: 3.8in;
+}
+
+#religion{
+    margin-right: 2.2em;
+}
+
+#relationship{
+    width: 1in;
+}
+
+#telephone, #telephone2{
+    width: 8em;
+    margin-right: 5px;
+}
+
+#familyEmail{
+    width: 15em;
+}
+
+#emerContact{
+    width: 3.3in;
+}
+
+#mothersName,#fathersName{
+    width: 13.8em;
+}
+
+#workplace{
+    width: 8.3em;
+}
+
+#workplace2{
+    width: 8.7em;
+}
+
+#deviceKind{
+    width: 9em;
+}
+
+.semiLongLine{
+    width: 3in;
+    margin-right: 10px;
+}
+
+.veryShortLine{
+    width: .5in;
+}
+
+.notBold{
+    font-weight: normal;
+}
+
+.textArea{
+    min-height: 4em;
+    min-width: 5.6in;
+    padding: .5em;
+    border: solid 1px #999;
+    border-radius: 4px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    resize:none;
+}
